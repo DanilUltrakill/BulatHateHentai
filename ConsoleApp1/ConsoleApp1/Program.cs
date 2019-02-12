@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Darkness My Old Friend");
+            Console.WriteLine("Hello Darkness My Old Fiend");
             Console.ReadKey();
         }
     }
