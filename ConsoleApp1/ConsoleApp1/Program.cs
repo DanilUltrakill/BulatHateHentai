@@ -19,9 +19,10 @@ namespace ConsoleApp1
                     i = int.Parse(Console.ReadLine());
                     switch (i)
                     {
-                        //case 1:
-                        //    Console.WriteLine("1");                           
-                        //    break;
+                        case 1:
+                            Console.WriteLine("Введите A");
+                            int a= int.Parse(Console.ReadLine());
+                            break;
                         //case 2:
                         //    Console.WriteLine("2");
                         //    break;
