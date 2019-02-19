@@ -19,12 +19,23 @@ namespace ConsoleApp1
                     i = int.Parse(Console.ReadLine());
                     switch (i)
                     {
-                        //case 1:
-                        //    Console.WriteLine("1");                           
-                        //    break;
-                        //case 2:
-                        //    Console.WriteLine("2");
-                        //    break;
+<<<<<<< HEAD
+                
+=======
+<<<<<<< HEAD
+                        
+                        case 2:
+                            Console.WriteLine("Введите B");
+                            int b = int.Parse(Console.ReadLine());
+                            break;
+=======
+                        case 1:
+                            Console.WriteLine("Введите A");
+                            int a= int.Parse(Console.ReadLine());
+                            break;
+                       
+>>>>>>> case1
+                     
                         case 3:
                             int sum = a + b;
                             Console.WriteLine("{0}", sum);
