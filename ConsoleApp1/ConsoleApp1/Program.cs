@@ -25,13 +25,13 @@ namespace ConsoleApp1
                         //case 2:
                         //    Console.WriteLine("2");
                         //    break;
-                        case 3:
-                            int sum = a + b;
-                            Console.WriteLine("{0}", sum);
-                            break;
-                        //case 4:
-                        //    Console.WriteLine("4");
+                        //case 3:
+                        //    Console.WriteLine("3");
                         //    break;
+                        case 4:
+                            int raz = a - b;
+                            Console.WriteLine("{0}", raz);
+                            break;
                         //case 5:
                         //    Console.WriteLine("5");
                         //    break;
