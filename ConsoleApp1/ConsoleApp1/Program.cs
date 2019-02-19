@@ -19,25 +19,36 @@ namespace ConsoleApp1
                     i = int.Parse(Console.ReadLine());
                     switch (i)
                     {
-                        //case 1:
-                        //    Console.WriteLine("1");                           
-                        //    break;
-                        //case 2:
-                        //    Console.WriteLine("2");  
-                        //    break;
-                        //case 3:
-                        //    Console.WriteLine("3");
 
-                        //    break;
-                        //case 4:
-                        //    Console.WriteLine("4");
-                        //    break;
-                        //case 5:
-                        //    Console.WriteLine("5");
-                        //    break;
-                        //case 6:
-                        //    Console.WriteLine("6");
-                        //    break;
+                        
+                        case 2:
+                            Console.WriteLine("Введите B");
+                            int b = int.Parse(Console.ReadLine());
+                            break;
+
+                        case 1:
+                            Console.WriteLine("Введите A");
+                            int a= int.Parse(Console.ReadLine());
+                            break;
+                     
+                        case 3:
+                            int sum = a + b;
+                            Console.WriteLine("{0}", sum);
+                            break;
+                        case 4:
+                            int raz = a - b;
+                            Console.WriteLine("{0}", raz);
+                            break;
+                       
+                        case 5:
+                            int pro = a * b;
+                            Console.WriteLine("{0}", pro);
+                            break;
+                      
+                        case 6:
+                            int del = a / b;
+                            Console.WriteLine("{0}", del);
+                            break;
                         default:
                             Console.WriteLine("");
                             break;
