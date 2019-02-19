@@ -22,14 +22,13 @@ namespace ConsoleApp1
                         //case 1:
                         //    Console.WriteLine("1");                           
                         //    break;
-                        case 2:
-                            Console.WriteLine("Введите B");
-                            int b = int.Parse(Console.ReadLine());
-                            break;
-                        //case 3:
-                        //    Console.WriteLine("3");
-
+                        //case 2:
+                        //    Console.WriteLine("2");
                         //    break;
+                        case 3:
+                            int sum = a + b;
+                            Console.WriteLine("{0}", sum);
+                            break;
                         //case 4:
                         //    Console.WriteLine("4");
                         //    break;
